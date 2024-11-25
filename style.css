@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.colourr{
+    color: #ffffff;
+    border: 10px rgb(211, 209, 209) solid;
+    border-radius: 10px 10px 10px 10px;
+    border-bottom:none;
+    border-top: transparent;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.scro {
+    height: 3000px; /* Высота блока */
+    overflow-y: scroll; /* Включаем вертикальную прокрутку */
+  }
+.center {
+    display: block; 
+    margin: auto;
+    padding: auto;
+    width: 75%;
+}
+.otstup{
+    width:1485px;
+    height: 700px;
+    border: 10px rgb(56, 56, 56) solid;
+    border-radius: 20px 20px 20px 20px;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 10px;
+}
+.bgi{
+    background-image: url(preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 1520px 1205px;
+}
+.backdlyap{
+    background: rgb(85,8,8);
+    background: linear-gradient(0deg, rgba(85,8,8,1) 0%, rgba(0,0,0,1) 42%, rgba(46,46,46,1) 82%);
+    height: 3000px;
+    width: 1511px;
+    text-align: center;
+}
+.ot{
+    margin-left: 1300px;
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    border:5px rgb(253, 253, 253) solid;
+    border-radius:7px 7px 7px 7px;
+    background-color: #ffffff;
+}
+
+.tablo{
+    margin-top: 50px;
+    display: flex;
+    height:500px;
+    justify-content: space-evenly;
+
+}
+.tb1{
+    display:flex;
+    border: 15px solid rgb(51, 52, 51);
+    width: 300px;
+    border-radius: 15%;
+    justify-content: center;
+}
+
+.tb2{
+    display: flex;
+    border: 15px solid rgb(40, 40, 40);
+    width: 300px;
+    border-radius: 15%;
+    justify-content: center;
+}
+.tb3{
+    display: flex;
+    border: 15px solid rgb(47, 47, 47);
+    width: 300px;
+    border-radius: 15%;
+    justify-content: center;
+}
